@@ -1,0 +1,205 @@
+Igor's Quest
+By Garry Francis
+For web browser
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. The game relies extensively on word play, particularly homonyms, homophones and synonyms. Make sure you EXAMINE everything, even adjectives and room descriptions, as there are many hints and puns tucked away in the most unlikely places.
+
+The solution includes a lot of optional commands in brackets. These are included to indicate the clues that lead to the solution. These can be omitted once you know what to do. This is just a small sample of the optional commands. There are many more, as well as more locations and more objects.
+
+Scores are shown in brackets as +A=B, where A is points earned and B is cumulative points earned. There are 9 body parts. You are awarded 5 points for finding a body part and a further 5 points for returning it to the laboratory, i.e. (5 + 5) x 9 = 90 points.
+
+W
+(X PIANO) (ivory keys)
+(X KEYS) (key loose)
+(PLAY PIANO) (plays 'Old MacDonald had a Farm', play another)
+(PLAY PIANO) (plays 'Baa Baa Black Sheep', one more)
+(PLAY PIANO) (plays 'Mary Had a Little Lamb', that's enough)
+GET KEY
+(X KEY) (oblong key)
+(PLAY PIANO) (plays 'Old MacDonald had a Farm', but E missing)
+(PLAY PIANO) (plays 'Baa Baa Black Sheep', but E missing)
+(PLAY PIANO) (plays 'Mary Had a Little Lamb', but E missing)
+E
+OPEN DOOR (adds exit to north)
+N
+N
+OPEN GATE (adds exit to west)
+W
+W
+S
+S
+S
+S
+S
+(X MAT) (got hole)
+(X HOLE) (oblong hole)
+INSERT KEY (oblong key fits oblong hole & meat appears, mat + e = meat)
+GET MEAT
+(X IT) (dog food)
+N
+E
+E
+GET RECEIPT
+(X IT) (see writing)
+(READ IT) ("DRIEST CLEANEST")
+W
+N
+(X SIGN) (see writing)
+(READ IT) ("DRIEST CLEANEST")
+(X RACKS) (many clothes)
+(X CLOTHES) (awaiting collection)
+(X ATTENDANT) (wants something)
+(TALK ATTENDANT) ("Got receipt?")
+GIVE RECEIPT (returns suit)
+GET SUIT
+(X IT) (dry cleaned)
+WEAR IT (nice fit)
+S
+W
+W
+S (suit gets wet and becomes wetsuit)
+N
+W
+(X BAG) ("Zzzzz.")
+(GET BAG) (bag sleeping)
+WAKE BAG
+GET IT
+(X IT) (bag empty)
+E
+N
+(X BUILDER) (building body)
+(TALK BUILDER ("Hafta wait.")
+(X BAR) (long weight, sounds like 'long wait')
+(GET IT) (too heavy)
+(X DUMB) (short weight, sounds like 'short wait')
+(GET IT) (dumb enough)
+(X KETTLE) (round weight, sounds like 'round wait')
+(GET KETTLE) (wanna cuppa?)
+(X BALL) (rolling weight, sounds like 'rolling wait')
+(GET IT) (too heavy)
+(GET MEDICINE) (not sick)
+WAIT (+5=5) (builder finished, body appears)
+GET BODY
+S
+E
+E
+S
+(X TANK) (shark inside)
+(X SHARK) (inside tank)
+(X FISH) (inside tank)
+D (or SWIM, DIVE, JUMP, ENTER TANK)
+(X FISH) (red herrings)
+(X SHARK) (hammerhead)
+GET HEAD (+5=10) (leaves hammer)
+U
+N
+W
+N
+N
+W
+(X PEAS) (20 pea, sounds like '20p')
+GET PEAS (fill bag with 20 pea)
+(X CORN) (two ears)
+GET EARS (+5=15)
+E
+S
+W
+(X ATTENDANT) (looks attentive)
+(TALK ATTENDANT) ("Sale on.")
+(X PEN) (for writing)
+(GET IT) ("50p please.")
+(BUY IT) (not enough)
+(X PENCIL) (for drawing)
+(GET IT) ("30p please.")
+(BUY IT) (not enough)
+(X RULER) (one foot)
+(X RULERS) (two feet)
+(GET IT) ("20p please.", aha!)
+BUY RULERS (attendant puts them on counter)
+DROP BAG
+GET FEET (+5=20)
+E
+N
+N
+N
+E
+E
+S
+S
+U
+DROP BODY (+5=25)
+DROP HEAD (+5=30)
+DROP EARS (+5=35)
+DROP FEET (+5=40)
+D
+N
+N
+N
+(N) (dog won't let you)
+(X DOG) (looks mean)
+GIVE MEAT (dog gobbles it down to become friendly dog)
+(X DOG) (looks happy)
+N
+GET SPADE
+GET SAW
+S
+E
+(X GARDEN) (vegetable patch)
+DIG (find carrot)
+DROP SPADE
+GET CARROT
+(X IT) (rabbit food)
+W
+S
+W
+W
+N
+(X BURROW) (rabbit inside)
+(GET IT) (can't reach)
+DROP CARROT (or GIVE CARROT or FEED RABBIT, rabbit appears)
+X RABBIT (male rabbit, changes to hare)
+X HARE (very hairy)
+GET HARE (ouch, hair added to inventory) (+5=45)
+S
+S
+S
+S
+E
+(X NEEDLES) (have eyes)
+GET EYES (eyes added to inventory) (+5=50)
+W
+N
+N
+N
+E
+(X GATE) (should close)
+CLOSE GATE (see family crest on gate)
+(X FAMILY) (Frankenstein family)
+(X CREST) (has arms)
+(X ARMS) (look loose)
+GET ARMS (arms added to inventory) (+5=55)
+OPEN GATE
+E
+S
+S
+(X TABLE) (four legs)
+(X LEGS) (wooden legs)
+(GET LEGS) (belong to table)
+SAW LEGS (table collpases, legs appear) (+5=60)
+DROP SAW
+GET LEGS
+W
+(X CLOCK) (two hands)
+(X HANDS) (hour, minute)
+GET HANDS (hands added to inventory) (+5=65)
+E
+U
+DROP HAIR (+5=70)
+DROP EYES (+5=75)
+DROP ARMS (+5=80)
+DROP LEGS (+5=85)
+DROP HANDS (+5=90)
+PULL ROPE
+***THE END***
