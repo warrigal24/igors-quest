@@ -12,7 +12,7 @@ One day, Igor is minding his own business in the living room of Doctor Frankenst
 
 The doctor then adjourns to his study.
 
-This is a traditional text adventure that was originally written for the [Adventuron Treasure Hunt Jam](https://itch.io/jam/treasure-hunt), 6 February to 5 March 2020. The game can be played at [Igor's Quest](https://warrigal.itch.io/igors-quest).
+This is a traditional text adventure that was originally written for the [Adventuron Treasure Hunt Jam](https://itch.io/jam/treasure-hunt), 6 February to 5 March 2020.
 
 ## Release notes
 
